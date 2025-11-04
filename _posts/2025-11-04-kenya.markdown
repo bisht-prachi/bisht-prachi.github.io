@@ -5,7 +5,7 @@ date:   2025-11-04 22:21:59 +00:00
 image: /images/kenya-cover.jpg
 categories: project
 author: "Prachi Bisht"
-authors: 
+authors: "<strong>Prachi Bisht</strong>
 venue: 
 arxiv: 
 code: 

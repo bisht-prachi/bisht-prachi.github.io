@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Mars Lander 2028 Power Planning"
-date:   2025-08-28 22:21:59 +00:00
-image: /images/mars-cover.jpg
+title:  "Adaptation Atlas - Kenya's Rainfall Reliability Explorer"
+date:   2025-11-04 22:21:59 +00:00
+image: /images/kenya-cover.jpg
 categories: project
 author: "Prachi Bisht"
-authors: "<strong>Prachi Bisht</strong>, Prajjwal Yash"
+authors: "<strong>Prachi Bisht</strong>"
 venue: 
 arxiv: 
-code: https://github.com/bisht-prachi/mars-mission-power/
-website: https://mars-mission-power.streamlit.app
+code: 
+website: https://observablehq.com/@earth-observation/track-5-rainfall-reliability-report
 ---
-Architected ML-driven solar power simulation framework for Mars Lander Mission 2028, enabling adaptive scenario planning under uncertain landing conditions. Collaborated with cross-functional mission teams to embed ML-based decision-support into design trade studies.
+Developed an interactive geospatial notebook for the Adaptation Atlas Data Storytelling Challenge (Track 5 – Rainfall, 2025) (Zindi & CGIAR), integrating multi-hazard and exposure datasets to model compounded climate risks in Kenya; achieved a competitive 0.85/1.00 score and Special Mention for analytical depth and visualization quality.
