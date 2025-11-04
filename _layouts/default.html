@@ -86,19 +86,19 @@
           {% endfor %}
         </table>
 
-        <!-- ====== Publications Section ====== -->
+        <!-- ====== Other Projects Section ====== -->
         <table style="width:100%;margin:auto;">
           <tr>
             <td style="padding:2.5%;">
               <h2>Projects</h2>
-              <p>Selected technical and research projects integrating data science, physics-based modeling, and solar systems optimization.</p>
+              <p>Selected technical and research projects integrating physics-based modeling, and solar systems optimization.</p>
             </td>
           </tr>
         </table>
 
         <table style="width:100%;margin:auto;">
           {% for post in site.posts %}
-          {% if post.categories contains 'research' %}
+          {% if post.categories contains 'solar-project' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;">
               <img src="/tn{{ post.image }}" alt="project image" style="width:auto;height:auto;max-width:100%;">
