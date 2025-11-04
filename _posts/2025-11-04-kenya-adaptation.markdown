@@ -3,7 +3,7 @@ layout: post
 title:  "Adaptation Atlas - Kenya's Rainfall Reliability Explorer"
 date:   2025-11-04 22:21:59 +00:00
 image: /images/kenya-cover.jpg
-categories: project
+categories: earth-project
 author: "Prachi Bisht"
 authors: "<strong>Prachi Bisht</strong>"
 venue: 
