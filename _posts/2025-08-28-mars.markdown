@@ -3,7 +3,7 @@ layout: post
 title:  "Mars Lander 2028 Power Planning"
 date:   2025-08-28 22:21:59 +00:00
 image: /images/mars-cover.jpg
-categories: research
+categories: project
 author: "Prachi Bisht"
 authors: "<strong>Prachi Bisht</strong>, Prajjwal Yash"
 venue: 

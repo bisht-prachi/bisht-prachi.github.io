@@ -35,10 +35,10 @@
                 <a href="https://www.ursc.gov.in/">U R Rao Satellite Centre</a>, 
                 a unit of the <a href="https://www.isro.gov.in/">Indian Space Research Organisation (ISRO)</a>. 
                 I work in power systems and my work focuses on developing physics-informed models and machine learning frameworks 
-                for space-based solar energy forecasting and on-orbit system diagnostics. 
+                for space-based solar energy forecasting, space weather and on-orbit system diagnostics. 
                 I operate at the intersection of remote sensing, statistical modeling, and optimization, 
                 with a broader goal of advancing reliable, data-driven solutions for space and renewable energy applications.
-                Lately, my interests have evolved toward ML-driven Earth Observation and Space Weather applications.
+                Lately, my interests have evolved toward ML-driven Earth Observation and space-based edge inferencing.
               </p>
 
               <p style="text-align:center">
@@ -59,14 +59,14 @@
           <tr>
             <td style="padding:2.5%;">
               <h2>Projects</h2>
-              <p>Selected publications on solar cell modeling, radiation effects, and data-driven solar performance analysis.</p>
+              <p>Selected projects on solar cell modeling, radiation effects, and data-driven solar performance analysis.</p>
             </td>
           </tr>
         </table>
 
         <table style="width:100%;margin:auto;">
           {% for post in site.posts %}
-          {% if post.categories contains 'research' %}
+          {% if post.categories contains 'project' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;">
               <img src="/tn{{ post.image }}" alt="project image" style="width:auto;height:auto;max-width:100%;">
