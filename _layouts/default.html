@@ -53,14 +53,13 @@
           </tr>
         </table>
 
-<p>Debug: {% for post in site.posts %}{{ post.title }} | {% endfor %}</p>
 
 
         <!-- ====== Projects Section ====== -->
         <table style="width:100%;margin:auto;">
           <tr>
             <td style="padding:2.5%;">
-              <h2>Projects</h2>
+              <h2>Personal Projects</h2>
               <p>Selected projects in the interest of Earth Observation and Climate Resilience.</p>
             </td>
           </tr>
@@ -93,7 +92,7 @@
         <table style="width:100%;margin:auto;">
           <tr>
             <td style="padding:2.5%;">
-              <h2>Projects</h2>
+              <h2>Research Projects</h2>
               <p>Selected technical and research projects integrating physics-based modeling, statistical/machine learning to study solar systems in space environment.</p>
             </td>
           </tr>
@@ -102,6 +101,36 @@
         <table style="width:100%;margin:auto;">
           {% for post in site.posts %}
           {% if post.categories contains 'solar-project' %}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;">
+              <img src="{{ post.image }}" alt="project image" style="width:auto;height:auto;max-width:100%;">
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle;">
+              <h3>{{ post.title }}</h3> {{ post.date | date: "%Y" }}<br>
+              {% if post.code %}<a href="{{ post.code }}">code</a> / {% endif %}
+              {% if post.website %}<a href="{{ post.website }}">website</a>{% endif %}
+              <p>{{ post.excerpt }}</p>
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+        </table>
+
+
+        
+        <!-- ====== Grad Projects Section ====== -->
+        <table style="width:100%;margin:auto;">
+          <tr>
+            <td style="padding:2.5%;">
+              <h2>Graduate Research Projects</h2>
+              <p>In a past (student) life, I worked on the modelling the statistical physics based emergent phenomena in biomembranes.</p>
+            </td>
+          </tr>
+        </table>
+
+        <table style="width:100%;margin:auto;">
+          {% for post in site.posts %}
+          {% if post.categories contains 'grad-project' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;">
               <img src="{{ post.image }}" alt="project image" style="width:auto;height:auto;max-width:100%;">

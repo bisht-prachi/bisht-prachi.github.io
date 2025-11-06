@@ -2,7 +2,7 @@
 layout: post
 title: "Solar Cell Degradation under Electron Radiation"
 date: 2022-01-01 22:21:59 +00:00
-image: /images/rad-cover.JPG
+image: /images/rad-cover2.png
 categories: solar-project
 author: "Prachi Bisht"
 authors: "<strong>Prachi Bisht</strong>"
