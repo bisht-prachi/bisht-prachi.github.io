@@ -6,7 +6,7 @@ image: /images/rad-cover2.png
 categories: solar-project
 author: "Prachi Bisht"
 authors: "<strong>Prachi Bisht</strong>"
-venue: Journal of Applied Physics (2022)
+venue: 
 arxiv:
 code: https://github.com/bisht-prachi/solarcell_degradation_electron_irradiation
 website: https://pubs.aip.org/aip/jap/article-abstract/131/10/104503/2836606/Modeling-diffusion-length-damage-coefficient-in?redirectedFrom=fulltext
