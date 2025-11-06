@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Interface Growth Driven by a Single Active Particle"
-date: 2019-11-01 22:21:59 +00:00
+date: 2019-11-04 22:21:59 +00:00
 image: /images/interface-cover.JPG
 categories: grad-project
 author: "Prachi Bisht"
