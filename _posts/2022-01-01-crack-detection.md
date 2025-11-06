@@ -2,7 +2,7 @@
 layout: post
 title:  "Solar Cell Crack Detection and Segmentation"
 date:   2022-01-01 22:21:59 +00:00
-image: /images/crack-cover.png
+image: /images/crack-cover.jpg
 categories: solar-project
 author: "Prachi Bisht"
 authors: "<strong>Prachi Bisht</strong>, Prajjwal Yash"

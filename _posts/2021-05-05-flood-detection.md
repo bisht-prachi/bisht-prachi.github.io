@@ -2,7 +2,7 @@
 layout: post
 title: "Flood detection using SAR imagery and Deep Learning"
 date: 2021-11-04 22:21:59 +00:00
-image: /images/flood-cover.png
+image: /images/flood-cover.jpg
 categories: earth-project
 author: "Prachi Bisht"
 authors: "<strong>Prachi Bisht</strong>"
