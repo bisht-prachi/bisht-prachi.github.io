@@ -6,7 +6,7 @@ image: /images/flood-cover.jpg
 categories: earth-project
 author: "Prachi Bisht"
 authors: "<strong>Prachi Bisht</strong>"
-venue:
+venue: https://nasa-impact.github.io/etci2021/
 arxiv:
 code: https://github.com/bisht-prachi/Flood-detection-from-SAR-imagery
 website: 

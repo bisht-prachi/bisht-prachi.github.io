@@ -6,7 +6,7 @@ image: /images/kenya-cover.jpg
 categories: earth-project
 author: "Prachi Bisht"
 authors: "<strong>Prachi Bisht</strong>"
-venue:
+venue: https://zindi.africa/competitions/adaptation-atlas-data-storytelling-challenge-track-5-rainfall
 arxiv:
 code: https://observablehq.com/@earth-observation/track-5-rainfall-reliability-report
 website: https://observablehq.com/@earth-observation/track-5-rainfall-reliability-report

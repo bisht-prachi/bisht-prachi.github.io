@@ -6,7 +6,7 @@ image: /images/interface-cover.JPG
 categories: grad-project
 author: "Prachi Bisht"
 authors: "<strong>Prachi Bisht</strong>, Mustansir Barma"
-venue: "Tata Institute of Fundamental Research (TIFR), Hyderabad"
+venue: https://www.tifrh.res.in/
 arxiv:
 code:
 website: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.100.052120
