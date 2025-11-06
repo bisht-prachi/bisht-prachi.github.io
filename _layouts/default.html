@@ -76,6 +76,7 @@
               <h3>{{ post.title }}</h3> {{ post.date | date: "%Y" }}<br>
               {{ post.authors }}<br>
               {% if post.paper %}<a href="{{ post.paper }}">paper</a> / {% endif %}
+              {% if post.venue %}<a href="{{ post.venue }}">arxiv</a> / {% endif %}
               {% if post.arxiv %}<a href="{{ post.arxiv }}">arxiv</a> / {% endif %}
               {% if post.code %}<a href="{{ post.code }}">code</a> / {% endif %}
               {% if post.website %}<a href="{{ post.website }}">website</a>{% endif %}
@@ -107,6 +108,7 @@
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle;">
               <h3>{{ post.title }}</h3> {{ post.date | date: "%Y" }}<br>
+              {% if post.venue %}<a href="{{ post.venue }}">arxiv</a> / {% endif %}
               {% if post.code %}<a href="{{ post.code }}">code</a> / {% endif %}
               {% if post.arxiv %}<a href="{{ post.arxiv }}">arxiv</a> / {% endif %}
               {% if post.website %}<a href="{{ post.website }}">website</a>{% endif %}
@@ -138,6 +140,7 @@
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle;">
               <h3>{{ post.title }}</h3> {{ post.date | date: "%Y" }}<br>
+              {% if post.venue %}<a href="{{ post.venue }}">arxiv</a> / {% endif %}
               {% if post.code %}<a href="{{ post.code }}">code</a> / {% endif %}
               {% if post.arxiv %}<a href="{{ post.arxiv }}">arxiv</a> / {% endif %}
               {% if post.website %}<a href="{{ post.website }}">website</a>{% endif %}
