@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Adaptation Atlas - Kenya's Rainfall Reliability Explorer"
-date:   2025-11-04 22:21:59 +00:00
+title: "Adaptation Atlas - Kenya's Rainfall Reliability Explorer"
+date: 2025-11-04 22:21:59 +00:00
 image: /images/kenya-cover.jpg
 categories: earth-project
 author: "Prachi Bisht"
 authors: "<strong>Prachi Bisht</strong>"
-venue: 
-arxiv: 
+venue:
+arxiv:
 code: https://observablehq.com/@earth-observation/track-5-rainfall-reliability-report
 website: https://observablehq.com/@earth-observation/track-5-rainfall-reliability-report
 ---
