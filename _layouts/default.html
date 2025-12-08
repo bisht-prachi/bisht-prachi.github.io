@@ -57,41 +57,9 @@
 
 
 
+        
+
         <!-- ====== Projects Section ====== -->
-        <table style="width:100%;margin:auto;">
-          <tr>
-            <td style="padding:2.5%;">
-              <h2>Personal Projects</h2>
-              <p>Selected projects in the interest of earth observation and climate resilience.</p>
-            </td>
-          </tr>
-        </table>
-
-        <table style="width:100%;margin:auto;">
-          {% for post in site.posts %}
-          {% if post.categories contains 'earth-project' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;">
-              <img src="{{ post.image }}" alt="project image" style="width:auto;height:auto;max-width:100%;">
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle;">
-              <h3>{{ post.title }}</h3> {{ post.date | date: "%Y" }}<br>
-              {{ post.authors }}<br>
-              {% if post.paper %}<a href="{{ post.paper }}">paper</a> / {% endif %}
-              {% if post.venue %}<a href="{{ post.venue }}">arxiv</a> / {% endif %}
-              {% if post.arxiv %}<a href="{{ post.arxiv }}">arxiv</a> / {% endif %}
-              {% if post.code %}<a href="{{ post.code }}">code</a> / {% endif %}
-              {% if post.website %}<a href="{{ post.website }}">website</a>{% endif %}
-              <p>{{ post.excerpt }}</p>
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-        </table>
-
-
-
-        <!-- ====== Other Projects Section ====== -->
         <table style="width:100%;margin:auto;">
           <tr>
             <td style="padding:2.5%;">
@@ -121,6 +89,40 @@
           {% endif %}
           {% endfor %}
         </table>
+
+        <!-- ====== other Projects Section ====== -->
+        
+<table style="width:100%;margin:auto;">
+          <tr>
+            <td style="padding:2.5%;">
+              <h2>Personal Projects</h2>
+              <p>Selected projects in the interest of earth observation and climate resilience.</p>
+            </td>
+          </tr>
+        </table>
+
+        <table style="width:100%;margin:auto;">
+          {% for post in site.posts %}
+          {% if post.categories contains 'earth-project' %}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;">
+              <img src="{{ post.image }}" alt="project image" style="width:auto;height:auto;max-width:100%;">
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle;">
+              <h3>{{ post.title }}</h3> {{ post.date | date: "%Y" }}<br>
+              {{ post.authors }}<br>
+              {% if post.paper %}<a href="{{ post.paper }}">paper</a> / {% endif %}
+              {% if post.venue %}<a href="{{ post.venue }}">arxiv</a> / {% endif %}
+              {% if post.arxiv %}<a href="{{ post.arxiv }}">arxiv</a> / {% endif %}
+              {% if post.code %}<a href="{{ post.code }}">code</a> / {% endif %}
+              {% if post.website %}<a href="{{ post.website }}">website</a>{% endif %}
+              <p>{{ post.excerpt }}</p>
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+        </table>
+        
 
 
         
