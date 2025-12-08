@@ -11,4 +11,4 @@ arxiv:
 code: https://observablehq.com/@earth-observation/track-5-rainfall-reliability-report
 website:  https://zindi.africa/competitions/adaptation-atlas-data-storytelling-challenge-track-5-rainfall
 ---
-Developed an interactive geospatial notebook for the Adaptation Atlas Data Storytelling Challenge (Track 5 – Rainfall, 2025) (Zindi & CGIAR), integrating multi-hazard and exposure datasets to model compounded climate risks in Kenya; achieved a competitive 0.85/1.00 score and Special Mention for analytical depth and visualization quality.
+Developed an interactive geospatial notebook for the Adaptation Atlas Data Storytelling Challenge (Track 5 – Rainfall, 2025) (Zindi & CGIAR), integrating multi-hazard and exposure datasets to model compounded climate risks in Kenya.
